@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   
+        <head>
+            <title>sample</title>
+            <script src="js/jquery-1.11.0.js"></script>
+        </head>
+        <body>
+            <p id="user"></p>
+            <script>
+                var s='{"first_name":"ASWATHI","Second_name":"KK","Location":"MALAPPURAM"}';
+                var obj=JSON.parse(s);
+                console.log(obj);
+                document.getElementById("user").innerHTML="NAME: "+obj.first_name+" "+obj.Second_name+"<br>"+"LOCATION: "+obj.Location;
+            </script>
+    </body>
+</html>

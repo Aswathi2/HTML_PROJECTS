@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student</title>
+        <style type="text/css">
+        body{
+            background-image: url(imm.jpg);
+            background-size: cover;
+        }
+       #main{
+        background-color: white;
+           position: absolute;
+           top: 50%;
+           left:40%;
+           transform: translate(-50%,-50%);
+           width:30%;
+           padding: 45px;
+           box-sizing: border-box;
+           border: 1px solid black;
+           box-shadow: 0 5px 10px rgca(0,0,0,.2);
+           color: red;
+           border: 2px solid red;
+       }
+      h1{
+          text-align: center;
+      }
+      #btn{
+          margin-left: 39.5%;
+          margin-top: 21%;
+          position: absolute;
+          height: 45px;
+          width: 80px;
+          background-color: red;
+         
+      }
+      #btn1{
+          margin-left: 44.5%;
+          margin-top: 21%;
+          position: absolute;
+          height: 45px;
+          width: 80px;
+          background-color: red;
+         
+      }
+      #text{
+        margin-left: 29.9%;
+          margin-top: 21%;
+          position: absolute;
+          height: 40px;
+          width: 150px;  
+      }
+        </style>
+    </head>
+    <body>
+        <h1><font color="red">STUDENT DETAILS</font></h1>
+        <section id="main">
+            
+        </section>
+        <script src="data.js"></script>
+        <div class="btn">
+            <input type="text" name="id"  id="text" placeholder="id">
+            <input type="button" value="click me" onclick="getId()"id="btn">
+            <input type="button" value="Reset" onclick="reset()"id="btn1">
+            
+        </div>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    
+                })
+            })
+        </script>
+    </body>
+</html>

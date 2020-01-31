@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   
+        <head>
+            <title>sample</title>
+            <script src="js/jquery-1.11.0.js"></script>
+        </head>
+        <body>
+            <p id="user"></p>
+            <script>
+                var s='{"employee":['+
+                '{"first_name":"ASWATHI","Second_name":"KK","Location":"MALAPPURAM"},'+
+                '{"first_name":"ASWANI","Second_name":"KK","Location":"MALAPPURAM"},'+
+                '{"first_name":"ASWAMEDHA","Second_name":"KK","Location":"MALAPPURAM"}]}';
+                var obj=JSON.parse(s);
+                console.log(obj);
+                for(var i=0;i<employee.length;i++)
+                {
+                document.getElementById("user").innerHTML="NAME: "+obj.employee[i].first_name+" "+obj.employee[i].Second_name+"<br>"+"LOCATION: "+obj.employee[i].Location;
+                }
+            </script>
+    </body>
+</html>

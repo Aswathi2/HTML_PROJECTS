@@ -1,0 +1,33 @@
+{
+    "events":[
+        {
+            "name":"ASWATHI",
+            "location":"Austin,TX",
+            "rollno":"1",
+            "mark":"400",
+            "email":"aswath13243@gmail.com"
+            
+        },
+        {
+            "name":"AARYA",
+            "location":"IDUKKI",
+            "rollno":"2",
+            "mark":"390",
+            "email":"aryasd@gmail.com"
+        },
+        {
+            "name":"JYOTHI",
+            "location":"THRISSUR",
+            "rollno":"3",
+            "mark":"420",
+            "email":"jyothicd@gmail.com"
+        },
+        {
+            "name":"MERIN",
+            "location":"IDUKKI",
+            "rollno":"4",
+            "mark":"405",
+            "email":"merinhghg@gmail.com"
+        }
+    ]
+}
